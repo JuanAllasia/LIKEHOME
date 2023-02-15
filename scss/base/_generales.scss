@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&family=Unbounded:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.indexmain{
+    background-image: url("../img/index2.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerindex{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.redes{
+    text-align: right;
+    
+}
+.sectionproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    background-color: white;
+    width: 100%;
+    height: 9vh;
+    position: sticky;
+    top: 0;
+}
+.div1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.mainindex{
+    text-align: center;
+}
+.productos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../img/fondoproductos.jpg");
+}
+.iframe{
+    width: 1800px;
+    text-align: right;
+}
+.footersec{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.redesfooter{
+    display: flex;
+    flex-direction: column;
+}
+.headerproducto{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    background-color: white;
+}
+.main-grid{
+    background-color: white;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px ;
+    background-color: black;
+}
+.grid-galeria{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    
+}
+.grid-item1{
+    grid-column: (1 / 3);
+}
