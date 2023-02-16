@@ -31,6 +31,7 @@
             }
         }
         p{
+            
             margin: 5px;
         }
         img{
@@ -45,16 +46,10 @@
     }
 }
 .galeria{
-    height: 1200px;
     div{
         p{
-            color: red;
-            margin: 65px;
-        }
-        h2{
-            font-size: 40px;
-            text-align: center;
             
+            margin: 65px;
         }
     }
 }
@@ -65,6 +60,7 @@
             width: 100%;
         }
         p{
+            color: red;
             text-align: center;
         }
     }
