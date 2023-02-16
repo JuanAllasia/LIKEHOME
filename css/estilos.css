@@ -149,13 +149,14 @@ header section div img {
 .productos section h2 {
   background-color: red; }
 
-.galeria div p {
-  color: red;
-  margin: 65px; }
-
-.galeria div h2 {
-  font-size: 40px;
-  text-align: center; }
+.galeria {
+  height: 1200px; }
+  .galeria div p {
+    color: red;
+    margin: 65px; }
+  .galeria div h2 {
+    font-size: 40px;
+    text-align: center; }
 
 .grid-galeria div img {
   height: 197px;
@@ -167,9 +168,6 @@ header section div img {
 .grid-galeria h2 {
   font-size: 40px;
   text-align: center; }
-
-.galeria {
-  height: 1200px; }
 
 .redesfooter a img {
   width: 40px;
