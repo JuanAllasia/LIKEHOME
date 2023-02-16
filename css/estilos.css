@@ -150,8 +150,10 @@ header section div img {
 .productos section h2 {
   background-color: red; }
 
-.galeria div p {
-  margin: 65px; }
+.galeria {
+  height: 1200px; }
+  .galeria div p {
+    margin: 65px; }
 
 .grid-galeria div img {
   height: 197px;
