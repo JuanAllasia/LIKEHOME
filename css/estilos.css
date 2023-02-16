@@ -178,7 +178,9 @@ header section div img {
 @media screen and (max-width: 550px) {
   header {
     flex-direction: column;
-    height: 25vh; } }
+    height: 25vh; }
+  .galeria {
+    height: 2500px; } }
 
 @media screen and (max-width: 700px) {
   .grid-galeria {
