@@ -91,7 +91,7 @@ main {
   grid-template-rows: 200px 200px 200px 200px 200px 200px; }
 
 .grid-item1 {
-  grid-column: 0.33333; }
+  grid-column: 0.66667; }
 
 header section div h1 {
   font-family: 'Rubik Gemstones', cursive;
@@ -164,9 +164,24 @@ header section div img {
 .grid-galeria div p {
   text-align: center; }
 
+.grid-galeria h2 {
+  font-size: 40px;
+  text-align: center; }
+
+.galeria {
+  height: 1200px; }
+
 .redesfooter a img {
   width: 40px;
   height: 40px; }
+
+@media screen and (max-width: 414px) {
+  .indexmain h2 {
+    font-size: 40px; } }
+
+@media screen and (max-width: 550px) {
+  header {
+    flex-direction: column; } }
 
 @media screen and (max-width: 700px) {
   .grid-galeria {
@@ -174,10 +189,8 @@ header section div img {
     grid-template-columns: 1fr;
     grid-auto-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; } }
 
-@media screen and (max-width: 550px) {
-  header {
-    flex-direction: column; } }
-
-@media screen and (max-width: 414px) {
-  .indexmain h2 {
-    font-size: 40px; } }
+@media screen and (max-width: 1400px) {
+  .grid-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; } }
