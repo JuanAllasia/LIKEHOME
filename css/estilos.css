@@ -80,6 +80,7 @@ main {
   background-color: white; }
 
 .galeria {
+  height: 1200px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 200px 200px 200px;
@@ -91,7 +92,7 @@ main {
   grid-template-rows: 200px 200px 200px 200px 200px 200px; }
 
 .grid-item1 {
-  grid-column: 0.66667; }
+  grid-column: 0.33333; }
 
 header section div h1 {
   font-family: 'Rubik Gemstones', cursive;
