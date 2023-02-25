@@ -178,11 +178,11 @@ header section div img {
 @media screen and (max-width: 550px) {
   header {
     flex-direction: column;
-    height: 25vh; }
+    height: 15vh; }
   .galeria {
     height: 2500px; } }
 
-@media screen and (max-width: 696px) {
+@media screen and (max-width: 699px) {
   .gridgeleri {
     display: grid;
     grid-template-columns: 1fr;
