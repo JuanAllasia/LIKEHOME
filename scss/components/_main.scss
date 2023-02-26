@@ -50,7 +50,7 @@
     div{
         p{
             
-            margin: 65px;
+            margin: 25px;
         }
     }
 }
@@ -70,4 +70,20 @@
         text-align: center;
     }
     
+}
+.mainindex{
+    div{
+        a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        background-color: black;
+        padding: 2px 10px;
+        
+        &:hover{
+            background-color: red;
+        }
+        
+        }
+}
 }

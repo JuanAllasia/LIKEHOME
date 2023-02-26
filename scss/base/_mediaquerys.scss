@@ -3,6 +3,10 @@
         h2{
         font-size: 40px;
     }
+    header{
+        flex-direction: column;
+        height: 15vh;
+    }
 }
 }
 @media screen and (max-width:550px){
@@ -33,4 +37,8 @@
         
     }
 }
-
+@media screen and (max-width:920px){
+    .galeria{
+        height: 1240px;
+    }
+}
