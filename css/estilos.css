@@ -154,6 +154,8 @@ header section div img {
   height: 1200px; }
   .galeria div p {
     margin: 25px; }
+  .galeria h2 {
+    color: black; }
 
 .grid-galeria div img {
   height: 197px;
