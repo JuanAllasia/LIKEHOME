@@ -125,16 +125,20 @@
           <div>
             <p>una tienda que tiene todo lo que buscas en moda</p>
           </div>
-          <div>
-            <form action="">usuario</form>
-            <input type="text" />
+          <div id="fechaedad">
+            <h1>¿Eres mayor de 18 años?</h1>
+            <input type="date" id="cumple">
           </div>
           <div>
-            <form action="">contraseña</form>
-            <input type="password" />
+            <form name="usuario" action="">usuario</form>
+            <input type="text" id="inputnombre"/>
           </div>
           <div>
-            <a href="">iniciar sesion</a>
+            <form name="contraseña" action="">contraseña</form>
+            <input type="password" id="inputcontra"/>
+          </div>
+          <div>
+            <button onclick="checkAge()">Entrar</button>
           </div>
         </section>
       </main>
