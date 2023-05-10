@@ -25,3 +25,25 @@ formProducto.addEventListener("submit", (event) => {
 });
 
 
+// Check if there is stored data
+if (localStorage.getItem("almacen")) {
+    // Retrieve the data and parse it from JSON to JavaScript object
+    const storedData = JSON.parse(localStorage.getItem("almacen"));
+    
+    // Loop through the retrieved data and create Producto instances for each one
+    storedData.forEach((producto) => {
+      const unproducto = new Producto(producto.nombre, producto.precio);
+      unproducto.vendido = producto.vendido;
+      
+      // Add the Producto instance to the misproductos array
+      misproductos.push(unproducto);
+    });
+    
+    // Display the retrieved data on the page
+    const listaProductos = document.getElementById("lista-productos");
+    misproductos.forEach((producto) => {
+      const li = document.createElement("li");
+      li.textContent = producto.toString();
+      listaProductos.appendChild(li);
+    });
+  }
