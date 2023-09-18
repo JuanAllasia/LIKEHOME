@@ -1,5 +1,5 @@
 <h1 align="center">Hola 👋, soy juan allasia</h1>
-<h3 align="center">Un apasionado desarrollador frontend de la India</h3>
+<h3 align="center">Un apasionado desarrollador frontend de Argentina</h3>
 
 - 🔭 Actualmente estoy trabajando en **como en casa **
 
